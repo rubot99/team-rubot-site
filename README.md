@@ -1,105 +1,150 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://emma.lekoarts.de">
+    <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog starter
+  Gatsby Starter Portfolio: Emma
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+<p align="center">
+  <a href="https://github.com/LekoArts/gatsby-starter-portfolio-emma/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-0BSD-blue.svg" alt="Gatsby Starter Portfolio: Emma is released under the 0BSD license." />
+  </a>
+  <a href="https://github.com/sponsors/LekoArts">
+    <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/LekoArts">
+  </a>
+  <a href="https://www.lekoarts.de?utm_source=emma&utm_medium=Starter">
+    <img alt="Website" src="https://img.shields.io/badge/-website-blue">
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=lekoarts_de">
+    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@lekoarts_de" alt="Follow @lekoarts_de" />
+  </a>
+</p>
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images. Using the Gatsby Theme [`@lekoarts/gatsby-theme-emma`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-emma).
 
-## 🚀 Quick start
+[**Demo Website**](https://emma.lekoarts.de)
 
-1.  **Create a Gatsby site.**
+Also be sure to check out other [Free & Open Source Gatsby Themes](https://themes.lekoarts.de) and my [Personal Website](https://www.lekoarts.de?utm_source=emma&utm_medium=Starter).
 
-    Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the blog starter.
+## ✨ Features
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+- MDX
+- react-spring page animations
+- Optional MDX pages which automatically get added to the navigation
+- Fully customizable through the usage of Gatsby Themes (and Theme UI)
+- Light Mode / Dark Mode
+- Google Analytics Support
+- SEO (Sitemap, OpenGraph tags, Twitter tags)
+- Offline Support & WebApp Manifest
 
-1.  **Start developing.**
+## 🚀 Getting Started
 
-    Navigate into your new site’s directory and start it up.
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/LekoArts/gatsby-starter-portfolio-emma)
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+### 1. **Create a Gatsby site.**
 
-1.  **Open the source code and start editing!**
+Use `git` to clone the site and navigate into it:
 
-    Your site is now running at `http://localhost:8000`!
+```sh
+git clone https://github.com/LekoArts/gatsby-starter-portfolio-emma project-name
+cd project-name
+```
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+### 2. **Install dependencies.**
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+If you use npm 7 or above use the `--legacy-peer-deps` flag. If you use npm 6 you can use `npm install`.
 
-## 🚀 Quick start (Gatsby Cloud)
+```sh
+npm install --legacy-peer-deps
+```
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+### 3. **Open the code and start customizing!**
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-blog)
+Start the site by running `npm run develop`.
 
-## 🧐 What's inside?
+Your site is now running at `http://localhost:8000`!
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+If you want to learn more about how you can use a Gatsby starter that is configured with a Gatsby theme, you can check out this [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+## 📝 Using and modifying this starter
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+**Important Note:** Please read the guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/) to understand how to customize the underlying theme!
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+This starter creates a new Gatsby site that installs and configures the theme [`@lekoarts/gatsby-theme-emma`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-emma).
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+Have a look at the theme's README and files to see what options are available and how you can shadow the various components including Theme UI. Generally speaking you will want to place your files into `src/@lekoarts/gatsby-theme-emma/` to shadow/override files. The Theme UI config can be configured by shadowing its files in `src/gatsby-plugin-theme-ui/`.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+### Adding content
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+#### Adding a new project
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more detail).
+New projects will be shown on the index page of this theme and can be added by creating MDX files inside `content/projects`. General setup:
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+1. Create a new folder inside `content/projects`
+1. Create a new `index.mdx` file, and add the frontmatter
+1. Add an image to the created folder (from step 1)
+1. Reference this image as your `cover` in the frontmatter
+1. Write your content below the frontmatter
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+**Frontmatter reference:**
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+```md
+---
+client: "LekoArts"
+title: "Theme"
+cover: "./image.jpg"
+date: "2019-06-10"
+service: "Theme"
+color: "#8e9d31"
+---
+```
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+#### Adding a new page
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+Additional pages will be shown in the navigation (left side) and allow you to display content other than projects, e.g. a "Contact" or "About Me" page. General setup:
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+1. Create a new folder inside `content/pages`
+1. Create a new `index.mdx` file, and add the frontmatter
+1. Add an image to the created folder (from step 1)
+1. Reference this image as your `cover` in the frontmatter
+1. Write your content below the frontmatter
+
+**Frontmatter reference:**
+
+```md
+---
+title: "Name"
+slug: "/name"
+cover: "./name.jpg"
+---
+```
+
+### Change your `static` folder
+
+The `static` folder contains the icons, social media images and robots.txt. Don't forget to change these files, too!
+
+## 🤔 Questions or problems?
+
+Please open up an issue on the main repository: [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes). Thanks!
 
 ## 🎓 Learning Gatsby
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
+Looking for more guidance? Full documentation for Gatsby lives [on Gatsby's website](https://www.gatsbyjs.com/).
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+### Themes
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+- To learn more about Gatsby themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.com/docs/themes/).
 
-## 💫 Deploy
+### General
 
-[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/products/cloud/)
+- **For most developers, I recommend starting with the [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/docs/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
+- **To dive straight into code samples, head [to Gatsby's documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Reference Guides_ and _Gatsby API_ sections in the sidebar.
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+## 🌟 Supporting me
+
+Thanks for using this project! I'm always interested in seeing what people do with my projects, so don't hesitate to tag me on [Twitter](https://twitter.com/lekoarts_de) and share the project with me.
+
+Please star this project, share it on Social Media or consider supporting me on [Patreon](https://www.patreon.com/lekoarts) or [GitHub Sponsor](https://github.com/sponsors/LekoArts)!
