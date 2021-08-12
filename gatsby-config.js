@@ -1,59 +1,19 @@
-require(`dotenv`).config()
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
-const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
+const config = require('./config');
+const plugins = require('./gatsby-config.plugins');
 
 module.exports = {
+  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    siteTitleAlt: `Emma - Gatsby Starter Portfolio`,
+    // Data used by some gatsby plugins
+    siteUrl: config.siteUrl,
+    title: config.siteTitle,
+    description: config.siteDescription,
   },
-  plugins: [
-    {
-      resolve: `@lekoarts/gatsby-theme-emma`,
-      // See the theme's README for all available options
-      options: {},
-    },
-    googleAnalyticsTrackingId && {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
-    `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Emma - @lekoarts/gatsby-theme-emma`,
-        short_name: `Emma`,
-        description: `Minimalistic bright portfolio with full-width grid and large images`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#b83280`,
-        display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
-    },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-gatsby-cloud`,
-    `gatsby-plugin-netlify`,
-    shouldAnalyseBundle && {
-      resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
-      options: {
-        analyzerMode: `static`,
-        reportFilename: `_bundle.html`,
-        openAnalyzer: false,
-      },
-    },
-  ].filter(Boolean),
-}
+  plugins,
+};
