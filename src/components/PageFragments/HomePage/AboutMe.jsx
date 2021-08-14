@@ -6,16 +6,8 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of 3+ years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Hi! Welcome to team rubot our family blog. Check our blog to see what we have been doing 😃😉.`,
+  paraTwo: ``,
 };
 
 const AboutMe = () => {
@@ -47,7 +39,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
+            img="cup.png"
             alt="coffee image"
             textH4="Love Coffee"
             textH3="Coffee + Me = Happiness"
@@ -55,7 +47,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="meeting.png"
+            img="road-trip.png"
             alt="meeting image"
             textH4="Socially Awkward"
             textH3="At times"
@@ -63,7 +55,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
+            img="watering-plants.png"
             alt="motorcycle image"
             textH4="Love Riding"
             textH3="Biker for life"
@@ -71,7 +63,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="web.png"
+            img="christmas-dinner.png"
             alt="web image"
             textH4="Self Taught Programmer"
             textH3="Thanks to the Web Resources"
@@ -81,7 +73,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="graduation.png"
+            img="streaming-tv-app.png"
             alt="graduation image"
             textH4="Pursued B.Tech in"
             textH3="Computer Science"
