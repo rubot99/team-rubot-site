@@ -33,40 +33,40 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH4="Living"
+            textH3="Newcastle, UK"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="cup.png"
             alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            textH4="Like"
+            textH3="Cups of Coffee"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="road-trip.png"
-            alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            alt="car with luggage image"
+            textH4="Enjoy"
+            textH3="Road Trips"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="watering-plants.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            alt="watering potted plants image"
+            textH4="Like"
+            textH3="Gardening"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="christmas-dinner.png"
-            alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            alt="Roast chicken and pie image"
+            textH4="Like"
+            textH3="Cooking"
             height={60}
             width={60}
           />
@@ -74,9 +74,9 @@ const AboutMe = () => {
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="streaming-tv-app.png"
-            alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            alt="flat screen image"
+            textH4="Watching"
+            textH3="Boxsets"
             height={60}
             width={60}
           />
