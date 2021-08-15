@@ -33,7 +33,7 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Living"
+            textH4="Living in"
             textH3="Newcastle, UK"
           />
         </Col>
@@ -41,15 +41,15 @@ const AboutMe = () => {
           <AboutTile
             img="cup.png"
             alt="coffee image"
-            textH4="Like"
-            textH3="Cups of Coffee"
+            textH4="Like cups of"
+            textH3="Coffee"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="road-trip.png"
             alt="car with luggage image"
-            textH4="Enjoy"
+            textH4="Enjoy taking"
             textH3="Road Trips"
           />
         </Col>
@@ -57,15 +57,15 @@ const AboutMe = () => {
           <AboutTile
             img="watering-plants.png"
             alt="watering potted plants image"
-            textH4="Like"
-            textH3="Gardening"
+            textH4="Tending our"
+            textH3="Garden"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="christmas-dinner.png"
             alt="Roast chicken and pie image"
-            textH4="Like"
+            textH4="Attempting gourmet"
             textH3="Cooking"
             height={60}
             width={60}
@@ -75,7 +75,7 @@ const AboutMe = () => {
           <AboutTile
             img="streaming-tv-app.png"
             alt="flat screen image"
-            textH4="Watching"
+            textH4="Relaxing and watching"
             textH3="Boxsets"
             height={60}
             width={60}
