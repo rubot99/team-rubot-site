@@ -44,5 +44,10 @@ module.exports = {
       description: 'Meals and Cooking.',
       color: '#f9c646',
     },
+    party: {
+      name: 'party',
+      description: 'Dinner Party.',
+      color: '#f9c646',
+    },
   },
 };
