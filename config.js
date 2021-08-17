@@ -49,5 +49,10 @@ module.exports = {
       description: 'Dinner Party.',
       color: '#f9c646',
     },
+    diy: {
+      name: 'diy',
+      description: 'DIY tools.',
+      color: '#f9c646',
+    },
   },
 };
