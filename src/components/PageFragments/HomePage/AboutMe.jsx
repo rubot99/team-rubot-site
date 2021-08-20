@@ -27,6 +27,7 @@ const AboutMe = () => {
           {pageText.paraOne}
         </p>
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <img src="eleventh-wave-8CbnwZYoahA-unsplash" />
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
