@@ -6,3 +6,10 @@ path: blog/house-tidea-july
 cover: ./IMG_20210728_181119_2.jpg
 excerpt: A & R meal at House of Tides
 ---
+### A & R meal at House of Tides 🍸🍽️
+
+![sourdough bread with cultured butter](./IMG_20210728_183318_2.jpg)
+![Butter poached monk fish](./IMG_20210728_192421_2.jpg)
+![Lamb rump steak and lamb belly](./IMG_20210728_194420_2.jpg)
+![coconut parfait](./IMG_20210728_200819_2.jpg)
+![House of tidea](./IIMG_20210728_182938_2.jpg)

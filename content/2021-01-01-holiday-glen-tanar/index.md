@@ -6,7 +6,7 @@ path: blog/glen-tanar
 cover: ./IMG_20210602_151250.jpg
 excerpt: A & R holiday at the Tower O'es
 ---
-### A & R holiday at the Tower O'es
+### A & R holiday at the Tower O'es 🌄
 
 ![Tower O'es](./IMG_4322.jpg)
 ![Tower O'es](./IMG_20210602_161821.jpg)
