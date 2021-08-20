@@ -6,8 +6,7 @@ path: blog/40th-birthday
 cover: ./splash.jpg
 excerpt: A's 40th birthday
 ---
-
-Celebrating A's 40th Birthday 🥳🎉🎂🎁
+### Celebrating A's 40th Birthday 🥳🎉🎂🎁
 
 ![Happy birtday ballon](./IMG_20210206_102531.jpg)
 ![Charcuterie Board](./IMG_20210206_101225.jpg)

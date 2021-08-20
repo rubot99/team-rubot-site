@@ -6,10 +6,10 @@ path: blog/restoring-bbq
 cover: ./IMG_20210410_121922.jpg
 excerpt: R restoring old BBQ
 ---
-R restoring old BBQ.
+### R restoring old BBQ 📐🛠️
 
-Rusted BBQ
+#### Rusted BBQ
 ![Rusted BBQ](./IMG_20210403_154948.jpg)
 
-Rusted BBQ
+#### Rusted BBQ
 ![Restored BBQ](./IMG_20210410_121922.jpg)

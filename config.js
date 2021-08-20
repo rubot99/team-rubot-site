@@ -54,5 +54,10 @@ module.exports = {
       description: 'DIY tools.',
       color: '#f9c646',
     },
+    travel: {
+      name: 'travel',
+      description: 'travel',
+      color: '#f9c646',
+    },
   },
 };
