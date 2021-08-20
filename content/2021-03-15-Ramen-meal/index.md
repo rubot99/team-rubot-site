@@ -1,6 +1,6 @@
 ---
 title: Ramen meal
-tags: [party]
+tags: [meal]
 date: 2021-03-15T05:25:44.226Z
 path: blog/ramen-meal
 cover: ./IMG_20210315_174421.jpg
