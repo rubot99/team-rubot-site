@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('C:/Users/reube/source/repos/n/team-rubot-site/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Rolwin Reevan","short_name":"Rolwin Reevan","start_url":"/","background_color":"#304CFD","theme_color":"#304CFD","display":"standalone","icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"6e818cc64559f7e2ef2f8c3989fe9151"},
+      options: {"plugins":[],"name":"Team Rubot","short_name":"Team Rubot","start_url":"/","background_color":"#304CFD","theme_color":"#304CFD","display":"standalone","icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"6e818cc64559f7e2ef2f8c3989fe9151"},
     },{
       plugin: require('C:/Users/reube/source/repos/n/team-rubot-site/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},

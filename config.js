@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
+  siteUrl: 'https://www.teamrubot.co.uk',
+  siteTitle: 'Team Rubot',
   siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  author: 'Team Rubot',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
