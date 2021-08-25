@@ -26,7 +26,7 @@ module.exports = {
   tags: {
     roadtrip: {
       name: 'roadtrip',
-      description: 'Travel adventures.',
+      description: 'Road Trip Adventures.',
       color: '#f9c646',
     },
     boxset: {
@@ -46,17 +46,17 @@ module.exports = {
     },
     party: {
       name: 'party',
-      description: 'Dinner Party.',
+      description: 'Parties and Meals.',
       color: '#f9c646',
     },
     diy: {
       name: 'diy',
-      description: 'DIY tools.',
+      description: 'DIY Tools.',
       color: '#f9c646',
     },
     travel: {
       name: 'travel',
-      description: 'travel',
+      description: 'Places and Travel.',
       color: '#f9c646',
     },
   },

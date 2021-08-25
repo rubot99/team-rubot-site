@@ -1,6 +1,6 @@
 ---
 title: A's Bee cake decoration
-tags: [party]
+tags: [meal]
 date: 2021-04-22T05:25:44.226Z
 path: blog/bee-cake-decoration
 cover: ./IMG_20210422_151744.jpg

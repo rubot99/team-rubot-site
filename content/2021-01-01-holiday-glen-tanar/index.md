@@ -8,6 +8,8 @@ excerpt: A & R holiday at the Tower O'es
 ---
 ### A & R holiday at the Tower O'es 🌄
 
+Sunny holiday in Aberdenshire and Glen Tanar is beautiful and the Tower O'es was a very lovely cottage. 
+
 ![Tower O'es](./IMG_4322.jpg)
 ![Tower O'es](./IMG_20210602_161821.jpg)
 ![Tower O'es](./IMG_20210602_234234.jpg)
