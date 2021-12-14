@@ -9,10 +9,10 @@ excerpt: A & R visit babacombe model village
 ### A & R visit babacombe model village
 
 #### Model village
-![model village](./IMG_20211101_122145.jpg)
+![View of Radar Dome](./IMG_20211101_122145.jpg)
 
-![model village](./IMG_20211101_124315.jpg)
+![Pear store](./IMG_20211101_124315.jpg)
 
-![model village](./IMG_20211101_124744.jpg)
+![Hot air ballons](./IMG_20211101_124744.jpg)
 
-![model village](./IMG_20211101_125147.jpg)
+![Train over the bridge](./IMG_20211101_125147.jpg)
