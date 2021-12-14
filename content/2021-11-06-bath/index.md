@@ -1,9 +1,9 @@
 ---
 title: A & R in Bath
-tags: [diy]
+tags: [travel]
 date: 2021-11-06T05:25:44.226Z
 path: blog/bath
-cover: ./IMG_20211106_112045
+cover: ./IMG_20211106_112045.jpg
 excerpt: A & R in Bath
 ---
 ### A & R in Bath
