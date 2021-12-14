@@ -1,10 +1,10 @@
 ---
-title: A & R in Bath
+title: A and R in Bath
 tags: [travel]
 date: 2021-11-06T05:25:44.226Z
 path: blog/bath
 cover: ./IMG_20211106_112045.jpg
-excerpt: A & R in Bath
+excerpt: A and R in Bath
 ---
 ### A & R in Bath
 

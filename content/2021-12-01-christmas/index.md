@@ -1,10 +1,10 @@
 ---
 title: Christmas lights 2021
 tags: [diy]
-date: 2021-08-26T05:25:44.226Z
+date: 2021-12-01T05:25:44.226Z
 path: blog/painted-bed-frame
 cover: ./cole-ciarlello-PFVUDmoW9S0-unsplash.jpg
-excerpt: Christmas lights 2021 at A & R
+excerpt: Christmas lights 2021 at A and R
 ---
 ### Christmas lights 2021 at A & R
 
