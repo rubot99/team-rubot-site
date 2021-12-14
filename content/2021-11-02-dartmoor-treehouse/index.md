@@ -1,7 +1,7 @@
 ---
 title: Stay at a treehouse
 tags: [diy]
-date: 2021-08-26T05:25:44.226Z
+date: 2021-11-02T05:25:44.226Z
 path: blog/dartmoor-treehouse
 cover: ./stargazer.jpg
 excerpt: A & R stay at a treehouse
